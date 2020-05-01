@@ -1,37 +1,67 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title> Cory's Website </title>
+	<title> Cory's Portfolio </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel = "stylesheet" type="text/css"
-	href="css/style.css">
+		href="css/style.css">
 </head>
 <body>
-	<img src="images/test.png" alt="boruto" height="250" width="250">
-	<h1><a href = "mailto:campbellcory2360@gmail.com">campbellcory2360@gmail</a>
-	<hr/>
-	<h2> LIST OF ALL MY PROGRAMS </h2>
-	<hr/>
-	<p> <strong>This is all the programs written for <abbr title = "Computer Science"> CISC </abbr> </strong></</p>
-
-	<p> <a href = "http://www.sci.brooklyn.cuny.edu/~lach/f19/html/cisc3115.html"> CISC 3115 class Cite </a></p>
-	<dl>
-	<dt>CISC 1115 Programs</dt>
-	<ul>
-	<li><a href = "D:\Cisc 1115\Labs\Scanner" target = "_blank"> Scanner program </a> </li>
-	<li><a href = "D:\Cisc 1115\Labs\variables"> Calling Variables </a> </li>
-	<li><a href = "D:\Cisc 1115\Labs\Employment"> Program on Employment </a> </li>
-	</ul>
-	</dl>
-	<dl>
-	<dt>CISC 3115 Programs</dt>
-	<ul>
-	</ul>
-	</dl>
-
-
-
-
-
-
-
+	<ul class ="nav-bar">
+			<li><a href="#top">Home</a></li>
+			<li><a href="#Introduction">About</a></li>
+			<li><a href="#Exp">Experience</li>
+			<li><a href ="#Proj">Projects</li>
+			<li><a href ="#Con">Contact</a></li>
+		</ul>
+<div id="top" class = "banner">
+	<img class="banner-image" src ="images/j2.jpg">
+</div>
+<div id="Introduction" class ="intro">
+		<h1>Hi there,</h1>
+		<p>my name is Cory Campbell, I am an aspiring Software Engineer located in New York Brooklyn.
+				My intentions are to develop my programming capabilities, as well as improving in other areas I am interested in, such as web designing  and app development.
+				During my four year pursuit of my bachelors degree, I aim to hone in on these skills in order to make myself a worthy asset to the tech industry.
+	  </p>
+		<img src="images/Profile-pic.jpg" alt="boruto" height="250" width="250">
+	</div>
+</div>
+<div id="Exp" class="Experience">
+	<h2>My Work Experience</h2>
+	<p>Besides course work, I have been teaching myself how to opperate different IDEs and programming languages to further the projects I am working on.
+			languages and markups I am trying to become more affluent in are:
+	</p>
+		<ul>
+			<li>Java</li>
+			<li>COBOL</li>
+			<li>Python</li>
+			<li>Html</li>
+			<li>CSS</li>
+		</ul>
+	</div>
+<div id="Proj"class="Projects">
+	<h3>What have I been up to?</h3>
+	<p>I have been uploading and documenting my coding journey as I went through my classes. Here is my github page showing all of my projects thus far:
+		<a href = "https://github.com/corycamp">
+			<img src="images/page-link.png" class= "image1"alt="github link" height="100" width = "100">
+			<img src="images/page-link1.png" class= "image2" alt="github link" height="100" width = "100">
+			<img src="images/page-link2.png" class= "image3" alt="github link" height="100" width = "100">
+			<img src="images/page-link3.png" class= "image4" alt="github link" height="100" width = "100">
+		</a>
+	</p>
+</div>
+<div id="Con" class="Contact">
+	<h4>If you wish to get in touch, please contact me below:</h4>
+		<form action="mailto:corycampbell2360@gmail.com" method="post" enctype="text/plain">
+			Name:<br>
+				<input type="text" name="name"><br>
+				E-mail:<br>
+				<input type="text" name="mail"><br>
+				Comment:<br>
+				<input type="text" name="comment" size="50"><br><br>
+				<input type="submit" value="Send">
+				<input type="reset" value="Reset">
+		</form>
+</div>
 </body>
 </htm1>
