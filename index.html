@@ -5,15 +5,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel = "stylesheet" type="text/css"
 		href="css/style.css">
+	<script src="js/navbar.js" defer></script>
 </head>
 <body>
-	<ul class ="nav-bar">
-			<li><a href="#top">Home</a></li>
-			<li><a href="#Introduction">About</a></li>
-			<li><a href="#Exp">Experience</li>
-			<li><a href ="#Proj">Projects</li>
-			<li><a href ="#Con">Contact</a></li>
-		</ul>
+	<nav class="navbar">
+		<div class="brand-title">Cory's Portfolio</div>
+		<a href ="#" class="toggle-button">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</a>
+		<div class="navbar-links">
+			<ul>
+				<li><a href="#Introduction">About</a></li>
+				<li><a href="#Exp">Experience</a></li>
+				<li><a href="#Proj">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
 	<div id="top" class = "banner">
 
 	</div>
@@ -50,18 +61,17 @@
 		</a>
 	</p>
 </div>
-<div id="Con" class="Contact">
-	<h4>If you wish to get in touch, please contact me below:</h4>
+<div id="contact" class ="contact">
+	<h5>Contact Me</h5>
 		<form action="mailto:corycampbell2360@gmail.com" method="post" enctype="text/plain">
 			Name:<br>
-				<input type="text" name="name"><br>
+			 <input type="text" name="name"><br>
 				E-mail:<br>
-				<input type="text" name="mail"><br>
+			 <input type="text" name="mail"><br>
 				Comment:<br>
 				<input type="text" name="comment" size="50"><br><br>
 				<input type="submit" value="Send">
-				<input type="reset" value="Reset">
-		</form>
+	</form>
 </div>
 </body>
 </htm1>
