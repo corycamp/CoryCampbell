@@ -250,7 +250,6 @@ input[type=submit]:hover {
     padding-top: 20vh;
   }
   .intro-img{
-    height: 400px;
-    width: 200px;
+    display: none;
   }
 }
